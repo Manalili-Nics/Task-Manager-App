@@ -38,30 +38,43 @@ A modern **Task Management Application** built with **Flutter** and **Firebase**
 
 ## 📱 Screenshots
 
-| Register | Login | Home |
-|----------|-------|------|
+|    Register     |     Login    |    Home   |
+|-----------------|--------------|-----------|
 | Register Screen | Login Screen | Task List |
 
-| Add Task | Update Task | Delete |
-|----------|-------------|--------|
+|         Add Task         | Update Task |    Delete    |
+|--------------------------|-------------|--------------|
 | Add with priority & date | Edit dialog | Confirmation |
 
 ## 🏗️ Project Structure
 lib/
+
 ├── main.dart # Main app entry point
+
 ├── RegisterScreen # User registration UI
+
 ├── LoginScreen # User login UI
+
 ├── HomeScreen # Task management UI
+
 └── AuthService # Authentication logic
 
+
 ## 🗄️ Firestore Database Structure
-tasks (collection)
+tasks 
+
 └── {documentId}
+
 ├── title: String
+
 ├── priority: String (low/medium/high)
+
 ├── dueDate: Timestamp (optional)
+
 ├── createdAt: Timestamp
+
 └── userId: String (links to authenticated user)
+
 
 
 ## 🔒 Security Rules
@@ -75,6 +88,8 @@ service cloud.firestore {
     }
   }
 }
+
+
 
 🚀 Getting Started
 

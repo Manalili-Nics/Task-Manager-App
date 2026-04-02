@@ -91,7 +91,7 @@ service cloud.firestore {
 
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 
@@ -131,7 +131,7 @@ await Firebase.initializeApp(
 Enable Email/Password Authentication in Firebase Console
 Create Firestore Database in test mode
 
-📋 Usage Guide
+## 📋 Usage Guide
 
 Register a new account with email and password
 Login with your credentials
@@ -143,7 +143,7 @@ Edit a task by clicking the blue edit icon
 Delete a task by clicking the red delete icon
 Logout using the logout button in the app bar
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 After completing this lab activity, students should be able to:
 Connect a Flutter app to Firebase
@@ -156,25 +156,25 @@ Build a professional mobile UI with Flutter
 Troubleshooting
 
       Error	                                                  Solution
-api-key-not-valid	                       Copy exact API key from Firebase Console
+api-key-not-valid	                         Copy exact API key from Firebase Console
 Registration failed	                       Ensure Email/Password is enabled in Firebase Auth
-Firestore not working	                   Create Firestore database in test mode first
+Firestore not working	                     Create Firestore database in test mode first
 StreamBuilder error	                       Check userId field matches authenticated user
 
-Author
+## Author
 Nicole Manalili
 GitHub: @Manalili-Nics
 Email: manalilinicole33@gmail.com
 
-🎓 Course
+## 🎓 Course
 Advanced Mobile Development - Laboratory Activity 6
 Flutter + Firebase Task Manager App
 Week 9–10 Laboratory Activity
 
-📄 License
+## 📄 License
 This project is created for educational purposes as part of a laboratory activity.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Flutter Documentation
 Firebase Documentation
 Course Instructor

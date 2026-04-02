@@ -143,23 +143,34 @@ Build a professional mobile UI with Flutter
 Troubleshooting
 
       Error	                                                  Solution
-api-key-not-valid	                         Copy exact API key from Firebase Console
-Registration failed	                       Ensure Email/Password is enabled in Firebase Auth
-Firestore not working	                     Create Firestore database in test mode first
-StreamBuilder error	                       Check userId field matches authenticated user
+api-key-not-valid	                            Copy exact API key from Firebase Console
+
+Registration failed	                          Ensure Email/Password is enabled in Firebase Auth
+
+Firestore not working	                        Create Firestore database in test mode first
+
+StreamBuilder error	                          Check userId field matches authenticated user
+
 
 ## Author
 Nicole Manalili
+
 GitHub: @Manalili-Nics
+
 Email: manalilinicole33@gmail.com
+
 
 ## 🎓 Course
 Advanced Mobile Development - Laboratory Activity 6
+
 Flutter + Firebase Task Manager App
+
 Week 9–10 Laboratory Activity
+
 
 ## 📄 License
 This project is created for educational purposes as part of a laboratory activity.
+
 
 ## 🙏 Acknowledgments
 Flutter Documentation

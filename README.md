@@ -1,5 +1,3 @@
-like this?
-
 # Task Manager App 📱
 
 A modern **Task Management Application** built with **Flutter** and **Firebase** that allows users to manage tasks with priority levels and due dates in real-time.

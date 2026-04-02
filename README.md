@@ -77,19 +77,6 @@ tasks
 
 
 
-## 🔒 Security Rules
-
-```javascript
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /tasks/{task} {
-      allow read, write: if request.auth != null;
-    }
-  }
-}
-
-
 
 ## 🚀 Getting Started
 
@@ -178,6 +165,3 @@ This project is created for educational purposes as part of a laboratory activit
 Flutter Documentation
 Firebase Documentation
 Course Instructor
-
-
-send the whole readme like that and i will paste in on vscode
